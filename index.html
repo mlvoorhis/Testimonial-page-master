@@ -3,65 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
-
+    <meta name="description" content="Reviewers' Testimonials" />
+    <link rel="stylesheet" href="testimonial.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <title>Testimonial Page | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
+
   <body>
-    <!-- 
-  ⭐️
-
-  Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.
-  
-  Checklist to Review an Academic Paper
-  
-  Peer Review Checklist
-  
-  Checklist for Editors, Reviewers, and Authors of SPIE Journals
-  
-  Samantha Lee
-  
-  The checklist ensures that the review process is thorough
-  
-  Rachel Patel
-  
-  I highly recommend the Writecream Business Description -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+    <div id="main-content">
+      <section class="product-info">
+        <header>
+          <img src="resources/Star_fill.svg" id="top-star" alt="" aria-hidden="true">
+          <h1>Reviewers</h1>
+          <h2>Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.</h2>
+        </header>
+        <div class="check-section">
+          <ul>
+            <li>
+              Checklist to Review an Academic Paper
+            </li>
+            <li>
+              Peer Review Checklist
+            </li>
+            <li>
+              Checklist for Editors, Reviewers, and Authors of SPIE Journals
+            </li>
+         </ul>
+      </div>
+      </section>
     </div>
+
+    <section class="testimonials">
+      <article class="review one">
+        <img src="resources/google-testimonial.svg" alt="Google Logo" width="87px" height="29px">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill_gray.svg" alt="Empty Star">
+        <h3 class="reviewer">Samantha Lee</h3>
+        <h3>The checklist ensures that the review process is thorough</h3>
+      </article>
+
+      <article class="review two">
+        <img src="resources/meta-testimonial.svg" alt="Meta Logo" width="84px" height="32px">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <img src="resources/Star_fill.svg" alt="Star">
+        <h3 class="reviewer">Rachel Patel</h3>
+        <h3>I highly recommend the Writecream Business Description</h3>
+      </article>
+    </section>
   </body>
 </html>
